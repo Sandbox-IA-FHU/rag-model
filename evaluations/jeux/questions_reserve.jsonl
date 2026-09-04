@@ -1,0 +1,8 @@
+{"cas_id": "r-01", "type": "nominal", "question": "Quel est le délai de la livraison standard ?", "doc_attendu": "doc-03", "mots_cles_attendus": ["48 heures"], "doit_refuser": false}
+{"cas_id": "r-02", "type": "nominal", "question": "Combien de temps un devis professionnel reste-t-il valable ?", "doc_attendu": "doc-06", "mots_cles_attendus": ["30 jours"], "doit_refuser": false}
+{"cas_id": "r-03", "type": "nominal", "question": "Sous quel délai le service après-vente répond-il ?", "doc_attendu": "doc-04", "mots_cles_attendus": ["3 jours"], "doit_refuser": false}
+{"cas_id": "r-04", "type": "difficile", "question": "Les frais de port me sont-ils rendus si je ne renvoie qu'un seul article sur trois ?", "doc_attendu": "doc-02", "mots_cles_attendus": ["totalité"], "doit_refuser": false}
+{"cas_id": "r-05", "type": "difficile", "question": "Ma commande dépasse 60 euros mais contient un meuble, la livraison est-elle offerte ?", "doc_attendu": "doc-03", "mots_cles_attendus": ["volumineux"], "doit_refuser": false}
+{"cas_id": "r-06", "type": "difficile", "question": "Le support peut-il me redonner mon mot de passe par téléphone ?", "doc_attendu": "doc-05", "mots_cles_attendus": ["jamais"], "doit_refuser": false}
+{"cas_id": "r-07", "type": "refus", "question": "Quelle marque de transporteur utilisez-vous pour l'express ?", "doit_refuser": true}
+{"cas_id": "r-08", "type": "refus", "question": "Puis-je visiter l'entrepôt ?", "doit_refuser": true}
